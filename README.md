@@ -26,7 +26,7 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-colocar
+![desktop-preview](https://github.com/Arthurgalvao645/IdadeInsight/assets/86384666/e55cdc95-82b3-4e97-a03c-c00673a97615)
 
 ### Links
 
