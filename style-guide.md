@@ -1,34 +1,34 @@
-# Front-end Style Guide
+# Guia de estilo de front-end
 
 ## Layout
 
-The designs were created to the following widths:
+Os designs foram criados nas seguintes larguras:
 
 - Mobile: 375px
 - Desktop: 1440px
 
-## Colors
+## Cores
 
-### Primary
+### Primária
 
-- Purple: hsl(259, 100%, 65%)
-- Light red: hsl(0, 100%, 67%)
+- Roxo: hsl(259, 100%, 65%)
+- Luz vermelha: hsl(0, 100%, 67%)
 
-### Neutral
+### Neutro
 
-- White: hsl(0, 0%, 100%)
-- Off white: hsl(0, 0%, 94%)
-- Light grey: hsl(0, 0%, 86%)
-- Smokey grey: hsl(0, 1%, 44%)
-- Off black: hsl(0, 0%, 8%)
+- Branco: hsl(0, 0%, 100%)
+- Branco Off: hsl(0, 0%, 94%)
+- Cinza claro: hsl(0, 0%, 86%)
+- Cinza esfumaçado: hsl(0, 1%, 44%)
+- Preto Off: hsl(0, 0%, 8%)
 
-## Typography
+## Tipografia
 
 ### Body Copy
 
-- Font size (inputs): 32px
+- Tamanho da fonte(inputs): 32px
 
-### Font
+### Fonte
 
 - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
 - Weights: 400i, 700, 800i
