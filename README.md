@@ -13,16 +13,16 @@
 Simplesmente insira sua data de nascimento no campo abaixo e deixe que nosso algoritmo faça a mágica. Em segundos, você terá uma visão detalhada de quanto tempo exato você já viveu.
 Os usuários devem ser capazes de:
 
-- Veja a idade em anos, meses e dias após enviar uma data válida por meio do formulário
-- Receba erros de validação se:
+- Ver a idade em anos, meses e dias após enviar uma data válida por meio do formulário
+- Receber erros de validação se:
   - Qualquer campo está vazio quando o formulário é enviado
   - O número do dia não está entre 1-31
   - O número do mês não está entre 1-12
   - O ano está no futuro
   - A data é inválida, por ex. 31/04/1991 (há 30 dias em abril)
-- Veja o layout ideal para a interface dependendo do tamanho da tela do dispositivo
-- Veja os estados de foco para todos os elementos interativos na página
-- **Bônus**: Veja os números das idades animados até o número final quando o formulário for enviado
+- Ver o layout ideal para a interface dependendo do tamanho da tela do dispositivo
+- Ver os estados de foco para todos os elementos interativos na página
+- **Bônus**: Ver os números das idades animados até o número final quando o formulário for enviado
 
 ### Screenshot
 
