@@ -1,37 +1,37 @@
-// Input selectors
+// Seletores de entrada
 const form = document.querySelector("form");
 const dayInput = document.getElementById("day");
 const monthInput = document.getElementById("month");
 const yearInput = document.getElementById("year");
 
-// Error selectors
+// Seletores de erro
 const errorDay = document.querySelector(".error__day");
 const errorMonth = document.querySelector(".error__month");
 const errorYear = document.querySelector(".error__year");
 const labels = document.querySelectorAll("label span");
 const inputs = document.querySelectorAll("input");
 
-// Result selectors
+// Seletores de resultados
 const resultYear = document.querySelector(".lines__year");
 const resultMonth = document.querySelector(".lines__month");
 const resultDay = document.querySelector(".lines__day");
 
-// Event listeners
+// Ouvintes de eventos
 form.addEventListener("submit", function (e) {
   e.preventDefault();
   validateForm();
 });
 
-// Functions
+// Funções
 function validateForm() {
-  // Get the values of the inputs
+  // Obtenha os valores das entradas
   const day = parseInt(dayInput.value || 0);
   const month = parseInt(monthInput.value || 0);
   const year = parseInt(yearInput.value || 0);
   const currentDate = new Date();
   let error = false;
 
-  // Validate the day
+  // Valida o dia
   if (day < 1 || day > new Date(year, month, 0).getDate() || isNaN(day)) {
     error = true;
     errorDay.textContent = "Must be a valid day";
@@ -39,7 +39,7 @@ function validateForm() {
     errorDay.textContent = "";
   }
 
-  // Validate the month
+  // Valida o mês
   if (month < 1 || month > 12 || isNaN(month)) {
     error = true;
     errorMonth.textContent = "Must be a valid month";
@@ -47,7 +47,7 @@ function validateForm() {
     errorMonth.textContent = "";
   }
 
-  // Validate the year
+  // Valida o ano
   if (year < 1900 || year > currentDate.getFullYear() || isNaN(year)) {
     error = true;
     errorYear.textContent = "Must be a valid year";
@@ -55,7 +55,7 @@ function validateForm() {
     errorYear.textContent = "";
   }
 
-  // Indicate errors
+  // Indica erros
   if (error) {
     labels.forEach((label) => {
       label.style.color = "var(--light-red)";
@@ -69,18 +69,18 @@ function validateForm() {
     resultMonth.textContent = "--";
     resultDay.textContent = "--";
   } else {
-    // Reset the labels color
+    // Redefinir a cor dos rótulos
     labels.forEach((label) => {
       label.style.color = "var(--smokey-grey)";
     });
 
-    // Reset the border color
+    // Redefinir a cor da borda
     inputs.forEach((input) => {
       input.style.border = "1px solid var(--light-grey)";
     });
   }
 
-  // If all inputs are valid, display the result
+  // Se todas as entradas forem válidas, exiba o resultado
   if (
     day >= 1 &&
     day <= new Date(year, month, 0).getDate() &&
@@ -111,7 +111,7 @@ function validateForm() {
   }
 }
 
-// Animate the value
+// Animar o valor
 function animateValue(val, elem) {
   let current = 0;
   let interval = setInterval(function () {
