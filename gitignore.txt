@@ -1,16 +1,14 @@
-# Avoid accidental upload of the Sketch and Figma design files
 #####################################################
-## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+## É de vital importância que não remova as linhas 4 e 5 - obrigado! 🙂 ##
 #####################################################
 *.sketch
 *.fig
 
-# Avoid accidental XD upload if you convert the design file
 ###############################################
-## Please do not remove line 12 - thanks! 🙂 ##
+## É de vital importância que não remova a linha 10 - obrigado! 🙂 ##
 ###############################################
 *.xd
 
-# Avoid your project being littered with annoying .DS_Store files!
+# Evite que seu projeto fique repleto de arquivos .DS_Store irritantes!
 .DS_Store
 .prettierignore
