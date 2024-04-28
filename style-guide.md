@@ -7,7 +7,7 @@ Os designs foram criados nas seguintes larguras:
 - Mobile: 375px
 - Desktop: 1440px
 
-## Cores
+## Ciano claro
 
 ### Primária
 
@@ -24,11 +24,11 @@ Os designs foram criados nas seguintes larguras:
 
 ## Tipografia
 
-### Body Copy
+### Estilo
 
 - Tamanho da fonte(inputs): 32px
 
 ### Fonte
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 400i, 700, 800i
+- Família: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Peso: 400i, 700, 800i
