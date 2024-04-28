@@ -30,8 +30,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solution URL: [https://github.com/Arthurgalvao645/IdadeInsight](https://github.com/Arthurgalvao645/IdadeInsight)
-- Live Site URL: [https://arthurgalvao645.github.io/IdadeInsight/](https://arthurgalvao645.github.io/IdadeInsight/)
+- URL do Projeto: [https://github.com/Arthurgalvao645/IdadeInsight](https://github.com/Arthurgalvao645/IdadeInsight)
+- URL do Site: [https://arthurgalvao645.github.io/IdadeInsight/](https://arthurgalvao645.github.io/IdadeInsight/)
 
 ## Meu processo
 
