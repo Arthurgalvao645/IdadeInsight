@@ -7,7 +7,7 @@ Os designs foram criados nas seguintes larguras:
 - Mobile: 375px
 - Desktop: 1440px
 
-## Ciano claro
+## Cores
 
 ### Primária
 
