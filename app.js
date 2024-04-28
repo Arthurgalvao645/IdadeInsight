@@ -1,8 +1,8 @@
 // Seletores de entrada
 const form = document.querySelector("form");
-const dayInput = document.getElementById("day");
-const monthInput = document.getElementById("month");
-const yearInput = document.getElementById("year");
+const dayInput = document.getElementById("dia");
+const monthInput = document.getElementById("mês");
+const yearInput = document.getElementById("ano");
 
 // Seletores de erro
 const errorDay = document.querySelector(".error__day");
@@ -34,7 +34,7 @@ function validateForm() {
   // Valide o dia
   if (day < 1 || day > new Date(year, month, 0).getDate() || isNaN(day)) {
     error = true;
-    errorDay.textContent = "Must be a valid day";
+    errorDay.textContent = "Deve ser um dia válido";
   } else {
     errorDay.textContent = "";
   }
@@ -42,7 +42,7 @@ function validateForm() {
   // Valide o mês
   if (month < 1 || month > 12 || isNaN(month)) {
     error = true;
-    errorMonth.textContent = "Must be a valid month";
+    errorMonth.textContent = "Deve ser um mês válido";
   } else {
     errorMonth.textContent = "";
   }
@@ -50,7 +50,7 @@ function validateForm() {
   // Validar o ano
   if (year < 1900 || year > currentDate.getFullYear() || isNaN(year)) {
     error = true;
-    errorYear.textContent = "Must be a valid year";
+    errorYear.textContent = "Deve ser um ano válido";
   } else {
     errorYear.textContent = "";
   }
@@ -105,9 +105,9 @@ function validateForm() {
       years--;
     }
 
-    animateValue(years, resultYear);
-    animateValue(months, resultMonth);
-    animateValue(days, resultDay);
+    animateValue(anos, resultYear);
+    animateValue(mês, resultMonth);
+    animateValue(dias, resultDay);
   }
 }
 
